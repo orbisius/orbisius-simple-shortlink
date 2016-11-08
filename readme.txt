@@ -3,7 +3,7 @@ Contributors: lordspace,orbisius
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7APYDVPBCSY9A
 Tags: wp,orbisius,redirec,shortlink,short link,shortener,short,link,links,short links,bitly,bit.ly
 Requires at least: 3.0
-Tested up to: 4.3
+Tested up to: 4.6
 Stable tag: 1.0.2
 License: GPLv2 or later
 
@@ -62,6 +62,11 @@ OR just upload it from Plugins > Add > Upload
 Just install the plugin and activate it. The feedback text appear in the public area
 
 == Changelog ==
+
+= 1.0.3 =
+* Removed the restriction of having the redirect to have to happen first thing after the domain. 
+Cases such as multisite in a subfolder can have site.com/sub-site/goto/123
+* Tested with WP 4.6
 
 = 1.0.2 =
 * Transferring GET params (if any) to the full link in case the cool admin wants to pass UTM tracking params.

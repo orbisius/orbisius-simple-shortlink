@@ -3,7 +3,7 @@
   Plugin Name: Orbisius Simple Shortlink
   Plugin URI:  http://club.orbisius.com/products/wordpress-plugins/orbisius-simple-shortlink/
   Description: Simple redirect to a post, page or a custom post type. Just link it as site.com/goto/123
-  Version:     1.0.2
+  Version:     1.0.3
   Author:      Slavi Marinov | Orbisius
   Author URI:  http://orbisius.com
   Text Domain: orbisius-simple-shortlink
@@ -33,7 +33,7 @@ function orb_club_short_link_set_404()
  */
 function orb_club_short_link()
 {
-    if (preg_match('#^/?(?:goto|link|post|page|id2post|id2page)/(\d+)#si', $_SERVER['REQUEST_URI'], $m)) {
+    if (preg_match('#/(?:goto|link|post|page|id2post|id2page)/[a-z]*(\d+)#si', $_SERVER['REQUEST_URI'], $m)) {
         $id = $m[1];
         $r = get_permalink($id);
 
