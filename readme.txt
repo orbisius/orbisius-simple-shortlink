@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: wp,orbisius,redirec,shortlink,short link,shortener,short,link,links,short links,bitly,bit.ly
 Requires at least: 3.0
 Tested up to: 4.6
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 
 Allows you to redirect to page, post or any other custom post type.
